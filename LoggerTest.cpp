@@ -3,8 +3,10 @@
 #include"Logger.h"
 #include<string>
 #include<sstream>
+
 int main()
 {
+  // create an object of Logger class, log file name is provided
   Logger::Logger log("MyLogger");
   int pid = fork();
   int i = 10;

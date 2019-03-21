@@ -1,4 +1,7 @@
+# compiler
 CXX=g++
+
+
 all: logger loggerTest
 
 loggerTest: logger
